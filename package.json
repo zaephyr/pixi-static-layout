@@ -1,0 +1,23 @@
+{
+  "name": "snowpack-pixijs",
+  "version": "1.0.0",
+  "description": "Snowpack & Pixi.js template",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev --polyfill-node",
+    "build": "snowpack build --polyfill-node",
+    "init": "snowpack init"
+  },
+  "keywords": [
+    "snowpack",
+    "pixi.js"
+  ],
+  "author": "Uros Mahne",
+  "license": "ISC",
+  "devDependencies": {
+    "snowpack": "^3.8.2"
+  },
+  "dependencies": {
+    "pixi.js": "^6.0.4"
+  }
+}
